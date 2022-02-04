@@ -8,7 +8,8 @@
     <title>S2 Bootstrap y Sass</title>
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light border-primary">
+    <div class="container">
+    <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light border-primary fixed-top">
         <div class="container-fluid">
             <a href="#" class="navbar-brand"> <img src="images/logo-bookmark.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_navega" aria-controls="menu-navega" aria-expanded="true" aria-label="Toggle navigation">
@@ -33,6 +34,24 @@
         </div>
         </div>
     </nav>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex align-items-center vh-100 ">
+            <div class="col-sm  align-items-center">
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for fre.</p>
+                <button class="btn btn-primary">Get it on Chrome</button>
+                <button class="btn btn-secundary shadow">Get it on Firefos</button>
+            </div>
+            <div class="col-sm align-items-center mr-0">
+                <div class="square bg-primary m-5 rounded-pill me-0 pt-0">
+                <img src="images/illustration-hero.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
