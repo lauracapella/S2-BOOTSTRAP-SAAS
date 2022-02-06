@@ -6,4 +6,18 @@ body{
 $primary: #5265E1;
 $secundary: #FA5959;
 
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff #fff red !important;
+    border-width: 2px;
+}
+.nav-link {
+    color: #495057 !important;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
