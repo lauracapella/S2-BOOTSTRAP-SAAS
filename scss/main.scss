@@ -1,8 +1,4 @@
 
-body{
-    color: aqua;
-}
-
 $primary: #5265E1;
 $secundary: #FA5959;
 
@@ -19,5 +15,27 @@ $secundary: #FA5959;
 .nav-link {
     color: #495057 !important;
 }
+
+.half_pill_left {
+    -webkit-border-top-left-radius: 200px;
+    -webkit-border-bottom-left-radius: 200px;
+    -moz-border-radius-topleft: 200px;
+    -moz-border-radius-bottomleft: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+  }
+  
+  .half_pill_right {
+    -webkit-border-top-right-radius: 200px;
+    -webkit-border-bottom-right-radius: 200px;
+    -moz-border-radius-topright: 200px;
+    -moz-border-radius-bottomright: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+  }
+  .change_color{
+    fill: #ffffff !important;
+  }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
