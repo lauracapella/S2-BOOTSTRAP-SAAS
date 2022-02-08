@@ -1,3 +1,7 @@
+.menu-botones a:hover {
+  color: aqua;
+}
+
 .nav-tabs {
   border-bottom: none !important;
 }
@@ -13,6 +17,18 @@
   color: #495057 !important;
 }
 
+.accordion-button::after {
+  background-image: url(../images/icon-arrow.svg);
+}
+
+.accordion-button:not(.collapse)::after {
+  background-image: url(../images/icon-arrow.svg);
+}
+
+.card {
+  height: 10%;
+}
+
 .half_pill_left {
   -webkit-border-top-left-radius: 200px;
   -webkit-border-bottom-left-radius: 200px;
@@ -20,6 +36,7 @@
   -moz-border-radius-bottomleft: 200px;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
+  height: 300px;
 }
 
 .half_pill_right {
